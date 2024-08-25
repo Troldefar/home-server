@@ -5,6 +5,7 @@
 #include "response.h"
 
 void handle_request(int client_fd) {
+    // Baby don't hurt me
     char buffer[1024] = {0};
     read(client_fd, buffer, 1024);
 
