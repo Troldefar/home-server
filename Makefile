@@ -7,7 +7,7 @@ OBJ = $(SRC:.c=.o)
 all: server
 
 server: $(OBJ)
-	$(CC) $(FLAGS) -o server $(OBJ)
+	$(CC) $(CFLAGS) -o server $(OBJ)
 
 clean:
 	rm -f server $(OBJ)
